@@ -1,1 +1,15 @@
+name: "Test Category"
+description: "Form test"
+title: "[TEST] "
+labels: ["test"]
+body:
+  - type: markdown
+    attributes:
+      value: "Điền thông tin ở các trường bên dưới."
+  - type: input
+    id: test_input
+    attributes:
+      label: "Test Input"
+      placeholder: "Nhập gì đó"
+      required: true
 
