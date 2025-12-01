@@ -8,14 +8,12 @@ body:
     attributes:
       label: "Tên tính năng"
       placeholder: "Ví dụ: AI Test Automation"
-      required: true
 
   - type: textarea
     id: feature_description
     attributes:
       label: "Mô tả tính năng"
       placeholder: "Chi tiết cách hoạt động và lợi ích"
-      required: true
 
   - type: dropdown
     id: priority
@@ -25,4 +23,3 @@ body:
         - Low
         - Medium
         - High
-      required: true
