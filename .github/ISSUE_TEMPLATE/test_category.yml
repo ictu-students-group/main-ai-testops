@@ -1,15 +1,25 @@
-name: "Test Category"
-description: "Form test"
-title: "[TEST] "
-labels: ["test"]
+name: "Feature Request"
+description: "Đề xuất tính năng mới"
+title: "[FEATURE] "
+labels: ["enhancement"]
 body:
-  - type: markdown
-    attributes:
-      value: "Điền thông tin ở các trường bên dưới."
   - type: input
-    id: test_input
+    id: feature_name
     attributes:
-      label: "Test Input"
-      placeholder: "Nhập gì đó"
+      label: "Tên tính năng"
+      placeholder: "Ví dụ: AI Test Automation"
       required: true
-
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: "Mô tả tính năng"
+      placeholder: "Chi tiết cách hoạt động và lợi ích"
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "Mức ưu tiên"
+      options:
+        - Low
+        - Medium
+        - High
