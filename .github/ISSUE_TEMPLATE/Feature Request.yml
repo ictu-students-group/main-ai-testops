@@ -1,4 +1,4 @@
-name: "Test_category"
+name: "Feature Request"
 description: "Đề xuất tính năng mới"
 title: "[FEATURE] "
 labels: ["enhancement"]
@@ -9,12 +9,14 @@ body:
       label: "Tên tính năng"
       placeholder: "Ví dụ: AI Test Automation"
       required: true
+
   - type: textarea
     id: feature_description
     attributes:
       label: "Mô tả tính năng"
       placeholder: "Chi tiết cách hoạt động và lợi ích"
       required: true
+
   - type: dropdown
     id: priority
     attributes:
