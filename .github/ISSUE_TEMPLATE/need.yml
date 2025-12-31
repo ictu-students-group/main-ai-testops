@@ -1,0 +1,25 @@
+name: Need
+description: Stakeholder or customer need
+labels: ["type:need"]
+body:
+  - type: input
+    attributes:
+      label: Stakeholder
+      placeholder: Customer
+  - type: textarea
+    attributes:
+      label: Original Stakeholder Request
+      description: Raw, original request from stakeholder
+
+  - type: textarea
+    attributes:
+      label: Normalized Need Statement
+      description: Atomic, clear, unambiguous need
+
+  - type: dropdown
+    attributes:
+      label: Stakeholder’s Priority
+      options:
+        - High
+        - Medium
+        - Low
