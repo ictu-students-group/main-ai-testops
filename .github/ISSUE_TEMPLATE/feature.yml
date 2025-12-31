@@ -1,0 +1,41 @@
+name: Product Feature
+description: Product-level feature
+labels: ["type:feature"]
+body:
+  - type: textarea
+    attributes:
+      label: Feature Description
+
+  - type: dropdown
+    attributes:
+      label: Status
+      options:
+        - Proposed
+        - Approved
+        - Implemented
+        - Deprecated
+
+  - type: dropdown
+    attributes:
+      label: Difficulty
+      options:
+        - Low
+        - Medium
+        - High
+
+  - type: dropdown
+    attributes:
+      label: Stability Over Time
+      options:
+        - Stable
+        - Moderate
+        - Volatile
+
+  - type: input
+    attributes:
+      label: Target Version
+
+  - type: textarea
+    attributes:
+      label: Source Needs
+      description: Link related Need issues (e.g. #12)
