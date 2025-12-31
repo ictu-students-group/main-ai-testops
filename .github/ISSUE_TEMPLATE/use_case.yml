@@ -1,0 +1,24 @@
+name: Use Case
+description: Functional behavior of the system
+labels: ["type:use-case"]
+body:
+  - type: input
+    attributes:
+      label: Actor
+
+  - type: textarea
+    attributes:
+      label: Precondition
+
+  - type: textarea
+    attributes:
+      label: Main Flow
+
+  - type: textarea
+    attributes:
+      label: Alternate / Exception Flows
+
+  - type: textarea
+    attributes:
+      label: Related Feature
+
