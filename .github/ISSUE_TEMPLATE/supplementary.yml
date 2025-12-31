@@ -1,0 +1,25 @@
+name: Supplementary Requirement
+description: Non-functional requirement
+labels: ["type:SR"]
+body:
+  - type: dropdown
+    attributes:
+      label: Category
+      options:
+        - Performance
+        - Security
+        - Usability
+        - Reliability
+        - Legal
+
+  - type: textarea
+    attributes:
+      label: Requirement Statement
+
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria (Testable)
+
+  - type: textarea
+    attributes:
+      label: Related Feature
