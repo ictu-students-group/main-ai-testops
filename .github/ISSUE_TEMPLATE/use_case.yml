@@ -45,14 +45,16 @@ body:
   - type: textarea
     id: stakeholders
     attributes:
-      label: Stakeholders & Interests
+      label: Supporting Actor
       description: Stakeholders involved and their interests
       placeholder: |
+        - LMS System
+        - Test Execution Engine
+        - LLM Service
         - Student: ...
         - Instructor: ...
-        - System: ...
-    validations:
-      required: false
+      validations:
+        required: false
 
   - type: textarea
     id: preconditions
