@@ -13,8 +13,17 @@ body:
         - Proposed
         - Approved
         - Implemented
-        - Deprecated
+        - Validated
 
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - Must
+        - Should
+        - Could
+        - Won't
+  
   - type: dropdown
     attributes:
       label: Difficulty
@@ -25,17 +34,29 @@ body:
 
   - type: dropdown
     attributes:
-      label: Stability Over Time
+      label: Stability
       options:
-        - Stable
-        - Moderate
-        - Volatile
+        - High
+        - Medium
+        - Low
 
   - type: input
     attributes:
       label: Target Version
+  
+  - type: input
+    attributes:
+      label: Rationale
 
+  - type: input
+    attributes:
+      label: Cost
+
+  - type: input
+    attributes:
+      label: Defect
+  
   - type: textarea
     attributes:
-      label: Source Needs
+      label: Origin (Trace From)
       description: Link related Need issues (e.g. #12)
