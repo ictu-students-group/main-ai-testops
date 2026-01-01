@@ -43,7 +43,7 @@ body:
       required: true
 
   - type: textarea
-    id: stakeholders
+    id: Supporting Actor
     attributes:
       label: Supporting Actor
       description: Stakeholders involved and their interests
@@ -53,8 +53,6 @@ body:
         - LLM Service
         - Student: ...
         - Instructor: ...
-      validations:
-        required: false
 
   - type: textarea
     id: preconditions
