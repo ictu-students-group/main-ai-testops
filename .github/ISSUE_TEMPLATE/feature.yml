@@ -55,6 +55,14 @@ body:
   - type: input
     attributes:
       label: Defect
+
+  - type: input
+    attributes:
+      label: Planned Iteration
+
+  - type: input
+    attributes:
+      label: Actual Iteration
   
   - type: textarea
     attributes:
