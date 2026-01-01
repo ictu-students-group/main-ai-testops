@@ -20,5 +20,25 @@ body:
 
   - type: textarea
     attributes:
-      label: Related Feature
+      label: Related Features
+      
+  - type: input
+    attributes:
+      label: Planned Iteration
+
+  - type: input
+    attributes:
+      label: Actual Iteration
+
+  - type: input
+    attributes:
+      label: Status
+
+  - type: dropdown
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
 
