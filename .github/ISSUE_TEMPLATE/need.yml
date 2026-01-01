@@ -18,3 +18,7 @@ body:
         - High
         - Medium
         - Low
+  - type: input
+    attributes:
+      label: Derived from
+      EPIC: #01
