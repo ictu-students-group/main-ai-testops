@@ -43,16 +43,14 @@ body:
       required: true
 
   - type: textarea
-    id: Supporting Actor
+    id: Support Actor
     attributes:
-      label: Supporting Actor
+      label: Support Actor
       description: Stakeholders involved and their interests
       placeholder: |
-        - LMS System
-        - Test Execution Engine
-        - LLM Service
-        - Student
-        - Instructor
+        - Student: ...
+        - Instructor: ...
+        - System: ...
     validations:
       required: false
       
