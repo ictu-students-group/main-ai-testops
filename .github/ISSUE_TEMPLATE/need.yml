@@ -21,4 +21,4 @@ body:
   - type: input
     attributes:
       label: Derived from
-      EPIC: #01
+      placeholder: #01
