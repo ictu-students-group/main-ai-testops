@@ -51,9 +51,11 @@ body:
         - LMS System
         - Test Execution Engine
         - LLM Service
-        - Student: ...
-        - Instructor: ...
-
+        - Student
+        - Instructor
+    validations:
+      required: false
+      
   - type: textarea
     id: preconditions
     attributes:
