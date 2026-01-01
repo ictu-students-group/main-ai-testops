@@ -4,17 +4,12 @@ labels: ["type:need"]
 body:
   - type: input
     attributes:
-      label: Stakeholder
+      label: Origin
       placeholder: Customer
   - type: textarea
     attributes:
-      label: Original Stakeholder Request
+      label: Stakeholder's request:
       description: Raw, original request from stakeholder
-
-  - type: textarea
-    attributes:
-      label: Normalized Need Statement
-      description: Atomic, clear, unambiguous need
 
   - type: dropdown
     attributes:
