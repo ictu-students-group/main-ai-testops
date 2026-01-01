@@ -8,7 +8,7 @@ body:
       placeholder: Customer
   - type: textarea
     attributes:
-      label: Stakeholder's request:
+      label: Stakeholder Request
       description: Raw, original request from stakeholder
 
   - type: dropdown
