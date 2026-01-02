@@ -22,4 +22,4 @@ body:
 
   - type: textarea
     attributes:
-      label: Related Feature
+      label: Related Feature , or Constrained by <FEAT ID>, eg. Constrained by #56
