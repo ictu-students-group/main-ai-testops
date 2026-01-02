@@ -134,7 +134,7 @@ body:
     attributes:
       label: Related Feature (Traceability)
       description: Feature(s) this use case implements or derives from
-      placeholder: FEAT-001
+      placeholder: Implemented by <số hiệu FEAT>, eg. Implemented by #12 
     validations:
       required: true
 
